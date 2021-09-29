@@ -24,6 +24,8 @@ p {
   font-weight: 300;
   margin-top: 10px;
   font-size: 12px;
+  width: 76%;
+  margin: auto;
 }
 h2 {
   margin-left: 50px;
@@ -70,14 +72,16 @@ img {
 a {
   color: black;
 }
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 600px) {
   body {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
   .card {
-    width: 100%;
-    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+    top: 50%;
+    padding: 12px;
   }
   h3,
   h2,
@@ -86,6 +90,43 @@ a {
     margin-left: 12px;
   }
 }
+@media only screen and (min-width: 1088px) and (max-width: 1199px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  .card {
+    width: 30%;
+    margin: auto;
+    top: 50%;
+    padding: 12px;
+  }
+  h3,
+  h2,
+  p,
+  img {
+    margin-left: 12px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1088px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  .card {
+    width: 50%;
+    margin: auto;
+    top: 50%;
+    padding: 12px;
+  }
+  h3,
+  h2,
+  p,
+  img {
+    margin-left: 12px;
+  }
+}
+
 
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
