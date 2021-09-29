@@ -120,6 +120,15 @@ a{
     margin-left: 12px;
   }
 }
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #404657;
+  }
+  .card {
+    background: #1d2127;
+  }
+}
 ```
 # Follow me🌟
 
