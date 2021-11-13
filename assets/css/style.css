@@ -58,7 +58,8 @@ img {
 }
 .twitter,
 .instagram,
-.github {
+.github ,
+.portfolio{
   background-color: white;
   color: black;
   width: 60px;
@@ -131,9 +132,13 @@ a {
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
   body {
-    background: #404657;
+    background: #082032;
   }
   .card {
-    background: #1d2127;
+    background: #334756;
+    filter: blur(80%);
   }
 }
+
+
+
