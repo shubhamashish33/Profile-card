@@ -1,46 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
+
 body {
-  /* background-image: linear-gradient(to bottom, #FD97F7,#D42DF9); */
-  background-color: #f74cee;
-  background-image: linear-gradient(19deg, #f74cee 0%, #b721ff 100%);
+  background-color: #ebf1ff;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 h3 {
-  font-weight: 100;
+  font-weight: 500;
   margin-top: 20px;
   margin-left: 50px;
 }
+
 p {
   margin-left: 50px;
   font-weight: 300;
   margin-top: 10px;
-  font-size: 12px;
-  width: 76%;
-  margin: auto;
+  font-size: 20px;
 }
+
 h2 {
   margin-left: 50px;
   margin-top: 10px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .card {
-  background-color: #a132c5;
+  background-color: #8fb3ff;
   width: 30%;
+  height: fit-content;
   margin: auto;
   filter: drop-shadow(2px 4px 20px #3a3a3a2c);
   border-radius: 20px;
-  color: white;
+  color: black;
 }
+
 img {
   width: 100px;
   height: 100px;
@@ -50,16 +53,20 @@ img {
   margin-top: 20px;
   filter: drop-shadow(2px 4px 20px #3a3a3a2c);
 }
+
 .icons {
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: space-around;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .twitter,
 .instagram,
-.github ,
-.portfolio{
+.github,
+.portfolio {
   background-color: white;
   color: black;
   width: 60px;
@@ -70,20 +77,24 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
+
 a {
-  color: black;
+  color: #062463;
 }
+
 @media screen and (max-width: 600px) {
   body {
     width: 100%;
     margin: auto;
   }
+
   .card {
     width: 90%;
     margin: auto;
     top: 50%;
     padding: 12px;
   }
+
   h3,
   h2,
   p,
@@ -91,17 +102,20 @@ a {
     margin-left: 12px;
   }
 }
+
 @media only screen and (min-width: 1088px) and (max-width: 1199px) {
   body {
     width: 100%;
     margin: auto;
   }
+
   .card {
     width: 30%;
     margin: auto;
     top: 50%;
     padding: 12px;
   }
+
   h3,
   h2,
   p,
@@ -109,17 +123,20 @@ a {
     margin-left: 12px;
   }
 }
+
 @media only screen and (min-width: 600px) and (max-width: 1088px) {
   body {
     width: 100%;
     margin: auto;
   }
+
   .card {
     width: 50%;
     margin: auto;
     top: 50%;
     padding: 12px;
   }
+
   h3,
   h2,
   p,
@@ -134,11 +151,9 @@ a {
   body {
     background: #082032;
   }
+
   .card {
     background: #334756;
     filter: blur(80%);
   }
 }
-
-
-
